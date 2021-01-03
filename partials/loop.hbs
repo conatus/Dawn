@@ -6,16 +6,16 @@
         <div class="feed-calendar-day">
             {{date published_at format="DD"}}
         </div>
-        <div class="feed-calendar-day">
+        <div class="feed-calendar-year">
             {{date published_at format="YYYY"}}
         </div>
     </div>
     <h2 class="feed-title">{{title}}</h2>
     <div class="feed-right">
         {{#if @labs.members}}
-            <svg class="icon feed-visibility feed-visibility-{{visibility}}">
-                <use xlink:href="#star"></use>
-            </svg>
+        <svg class="icon feed-visibility feed-visibility-{{visibility}}">
+            <use xlink:href="#star"></use>
+        </svg>
         {{/if}}
         <div class="feed-length">
             {{reading_time}}

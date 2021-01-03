@@ -43,6 +43,11 @@
     text-transform: uppercase;
 }
 
+.feed-calendar-day {
+    margin-right: 0.4rem;
+    text-transform: uppercase;
+}
+
 .feed-title {
     flex-grow: 1;
     overflow: hidden;
