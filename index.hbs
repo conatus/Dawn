@@ -1,12 +1,11 @@
-{{!< default}}
-
-<div class="content-area">
+{{!< default}} <div class="content-area">
     <main class="site-main">
         <div class="post-feed container medium">
+            <h2>Blog</h2>
             {{#foreach posts visibility="all"}}
-                {{> "loop"}}
+            {{> "loop"}}
             {{/foreach}}
         </div>
         {{pagination}}
     </main>
-</div>
+    </div>
