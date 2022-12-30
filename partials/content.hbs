@@ -37,11 +37,11 @@
         {{/if}}
     </header>
     <div class="single-content kg-canvas u-text-format">
-        {{#if @labs.members}}
+        {{#if @site.members_enabled}}
             {{#if access}}
                 {{content}}
                 {{#is "post"}}
-                    {{#if @labs.members}}
+                    {{#if @site.members_enabled}}
                         {{#unless @member}}
                             <section class="single-cta">
                                 <h2 class="single-cta-title">Enjoying these posts? Subscribe for more</h2>
